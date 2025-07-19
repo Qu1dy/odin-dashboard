@@ -14,12 +14,12 @@ nav img {
     height: 1rem;
 }
 
-header img {
+.top-header img {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-search, .user-info, header {
+search, .user-info, .top-header {
     display: grid;
     align-items: center;
     grid-auto-flow: column;
@@ -45,7 +45,7 @@ search, .user-info, header {
     height: 4rem;
 }
 
-.sidebar-title h1, header h1 {
+.sidebar-title h1, .top-header h1 {
     font-size: 1.5rem;
 }
 
@@ -71,7 +71,7 @@ search, .user-info {
     justify-content: center;
 }
 
-header {
+.top-header {
     justify-content: space-between;
     padding: 0 3rem 0;
     grid-area: header;
