@@ -119,7 +119,7 @@ search input {
 }
 
 search input:focus {
-    width: 200%;
+    width: 300%;
     outline: 1px solid black;
 }
 
