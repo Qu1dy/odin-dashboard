@@ -2,3 +2,15 @@ header img {
     width: 2rem;
     height: 2rem;
 }
+
+search {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-auto-flow: column;
+    gap: 2rem;
+}
+
+search input {
+    width: 40rem;
+}
