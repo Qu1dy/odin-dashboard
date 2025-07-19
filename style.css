@@ -19,10 +19,17 @@ nav img {
     height: 1.5rem;
 }
 
-search, .user-info, .top-header {
+search, .user-info, .top-header, .left, .hero, .right, .item, .sidebar-title  {
     display: grid;
     align-items: center;
     grid-auto-flow: column;
+}
+
+search, .top-header, .left, .hero, .right {
+    gap: 1rem;
+}
+
+.user-info {
     gap: 2rem;
 }
 
@@ -53,12 +60,6 @@ search, .user-info, .top-header {
     display: grid;
 }
 
-.item, .sidebar-title {
-    display: grid;
-    grid-auto-flow: column;
-    align-items: center;
-}
-
 .item {
     grid-template-columns: 2rem;
 }
@@ -71,11 +72,20 @@ search, .user-info {
     justify-content: center;
 }
 
-.top-header {
+.top-header, .hero {
     justify-content: space-between;
     padding: 0 3rem 0;
+}
+
+header {
+    display: grid;
     grid-area: header;
-    height: 5rem;
+    grid-template: 5fr 10fr;
+}
+
+.left img {
+    width: 4rem;
+    height: 4rem;
 }
 
 search input {
