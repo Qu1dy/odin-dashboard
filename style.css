@@ -1,6 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template: 1fr 4fr / 1fr 4fr;
+    grid-template-areas: 
+    'sidebar header'
+    'sidebar main';
 }
 
 img {
@@ -16,6 +21,7 @@ search, .user-info, header {
 }
 
 .sidebar {
+    grid-area: sidebar;
     display: grid;
     grid-template-rows: 0.2fr 2fr 1fr;
     gap: 4rem;
@@ -55,6 +61,7 @@ search, .user-info {
 
 header {
     justify-content: space-evenly;
+    grid-area: header;
 }
 
 search input {
