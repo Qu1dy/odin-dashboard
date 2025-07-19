@@ -142,8 +142,10 @@ a:hover {
 
 img:not(.pfp):hover, img:not(.pfp):focus {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 button:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
