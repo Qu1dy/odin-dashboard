@@ -1,5 +1,5 @@
 
-header img {
+img {
     width: 2rem;
     height: 2rem;
 }
@@ -11,6 +11,20 @@ search, .user-info, header {
     gap: 2rem;
 }
 
+.sidebar {
+    display: grid;
+    grid-template-rows: 0.2fr 2fr 1fr;
+    gap: 5rem;
+}
+
+.sidebar nav {
+    display: grid;
+}
+
+.item {
+    display: grid;
+    grid-auto-flow: column;
+}
 
 search, .user-info {
     justify-content: center;
