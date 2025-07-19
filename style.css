@@ -9,8 +9,8 @@ body {
 }
 
 img {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 search, .user-info, header {
@@ -26,15 +26,16 @@ search, .user-info, header {
     grid-template-rows: 0.2fr 2fr 1fr;
     gap: 4rem;
     padding-left: 1rem;
+    background-color: lightskyblue;
 }
 
 .sidebar-title img {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 
-.sidebar-title h1 {
-    font-size: 2rem;
+h1 {
+    font-size: 1.5rem;
 }
 
 .sidebar nav {
@@ -52,7 +53,7 @@ search, .user-info, header {
 }
 
 .sidebar-title {
-    grid-template-columns: 6rem;
+    grid-template-columns: 4rem;
 }
 
 search, .user-info {
@@ -62,6 +63,11 @@ search, .user-info {
 header {
     justify-content: space-evenly;
     grid-area: header;
+}
+
+
+header, .sidebar-title {
+    height: 5rem;
 }
 
 search input {
