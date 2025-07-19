@@ -1,4 +1,3 @@
-
 img {
     width: 2rem;
     height: 2rem;
@@ -17,13 +16,31 @@ search, .user-info, header {
     gap: 5rem;
 }
 
+.sidebar-title img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.sidebar-title h1 {
+    font-size: 2rem;
+}
+
 .sidebar nav {
     display: grid;
 }
 
-.item {
+.item, .sidebar-title {
     display: grid;
     grid-auto-flow: column;
+    align-items: center;
+}
+
+.item {
+    grid-template-columns: 3rem;
+}
+
+.sidebar-title {
+    grid-template-columns: 6rem;
 }
 
 search, .user-info {
