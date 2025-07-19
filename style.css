@@ -40,6 +40,9 @@ search, .top-header, .left, .hero, .right {
 .right button {
     background-color: skyblue;
     border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
     border-radius: 1rem;
     padding: 0.8rem 2.5rem;
 }
