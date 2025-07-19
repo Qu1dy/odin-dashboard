@@ -72,17 +72,24 @@ search, .user-info {
 }
 
 header {
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 3rem 0;
     grid-area: header;
     height: 5rem;
 }
 
 search input {
-    width: 30rem;
     height: 1.5rem;
+    width: 10rem;
+    transition: width 0.3s ease-in-out;
     border-radius: 1rem;
     border: none;
     background-color: hsl(250, 5%, 80%);
+}
+
+search input:focus {
+    width: 200%;
+    outline: 1px solid black;
 }
 
 a:link {
