@@ -93,3 +93,6 @@ a:hover {
     transform: scale(1.05);
 }
 
+img:hover, img:focus {
+    transform: scale(1.2);
+}
