@@ -34,7 +34,7 @@ search, .user-info, header {
     height: 4rem;
 }
 
-h1 {
+.sidebar-title h1, header h1 {
     font-size: 1.5rem;
 }
 
