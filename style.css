@@ -1,14 +1,24 @@
+
 header img {
     width: 2rem;
     height: 2rem;
 }
 
-search {
+search, .user-info, menu {
     display: grid;
     align-items: center;
-    justify-content: center;
     grid-auto-flow: column;
     gap: 2rem;
+    grid-auto-flow: column;
+}
+
+
+search, .user-info {
+    justify-content: center;
+}
+
+menu {
+    justify-content: space-evenly;
 }
 
 search input {
