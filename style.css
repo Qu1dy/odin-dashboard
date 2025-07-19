@@ -36,6 +36,9 @@ search, .top-header, .left, .hero, .right {
     row-gap: 1rem;
 }
 
+.right {
+    margin-top: 2rem;
+}
 
 .right button {
     background-color: skyblue;
