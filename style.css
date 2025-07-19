@@ -14,7 +14,7 @@ nav img {
     height: 1rem;
 }
 
-.top-header img {
+.top-header img:not(.pfp) {
     width: 1.5rem;
     height: 1.5rem;
 }
@@ -106,12 +106,17 @@ header {
 
 .pfp {
     border-radius: 4rem;
+}
+
+.left .pfp {
     width: 4rem;
     height: 4rem;
 }
 
-
-
+.top-header .pfp {
+    width: 2rem;
+    height: 2rem;
+}
 
 search input {
     height: 1.5rem;
