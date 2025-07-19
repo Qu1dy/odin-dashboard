@@ -36,6 +36,14 @@ search, .top-header, .left, .hero, .right {
     row-gap: 1rem;
 }
 
+
+.right button {
+    background-color: skyblue;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.8rem 2.5rem;
+}
+
 .user-info {
     gap: 2rem;
 }
