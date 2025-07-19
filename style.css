@@ -13,4 +13,8 @@ search {
 
 search input {
     width: 40rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: hsl(250, 5%, 80%);
 }
