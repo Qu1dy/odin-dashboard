@@ -29,6 +29,13 @@ search, .top-header, .left, .hero, .right {
     gap: 1rem;
 }
 
+.left .text {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1rem 2rem;
+    row-gap: 1rem;
+}
+
 .user-info {
     gap: 2rem;
 }
