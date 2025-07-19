@@ -1,15 +1,13 @@
-
 header img {
     width: 2rem;
     height: 2rem;
 }
 
-search, .user-info, menu {
+search, .user-info, header {
     display: grid;
     align-items: center;
     grid-auto-flow: column;
     gap: 2rem;
-    grid-auto-flow: column;
 }
 
 
@@ -17,7 +15,7 @@ search, .user-info {
     justify-content: center;
 }
 
-menu {
+header {
     justify-content: space-evenly;
 }
 
