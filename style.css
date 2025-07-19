@@ -30,7 +30,7 @@ search, .user-info, header {
     grid-area: sidebar;
     display: grid;
     grid-template-rows: 5rem 20rem 10rem;
-    gap: 1rem;
+    gap: 5rem;
     background-color: lightskyblue;
 }
 
