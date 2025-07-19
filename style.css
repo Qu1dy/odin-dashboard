@@ -138,3 +138,7 @@ a:hover {
 img:hover, img:focus {
     transform: scale(1.2);
 }
+
+button:hover {
+    transform: scale(1.1);
+}
