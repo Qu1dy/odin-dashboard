@@ -100,6 +100,30 @@ search, .user-info {
     padding: 0 3rem 0;
 }
 
+main {
+    margin-top: 1rem;
+    display: grid;
+    grid-area: main;
+    background-color: hsl(250, 5%, 90%);
+    grid-template: 1fr 1fr / 3fr 1fr;
+    grid-template-areas: 
+        'projects announcements'
+        'projects trending'; 
+    gap: 2rem;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.announcements {
+    grid-area: announcements;
+}
+
+.trending {
+    grid-area: trending;
+}
+
 header {
     display: grid;
     grid-area: header;
