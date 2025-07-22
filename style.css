@@ -115,6 +115,20 @@ main {
 .projects {
     grid-area: projects;
     display: grid;
+    margin-left: 2rem;
+    grid-template-rows: 1fr 10fr;
+}
+
+.cards {
+    display: grid;
+    gap: 2rem 2rem;
+    grid-template-columns: repeat(auto-fit, 300px);
+}
+
+.card {
+    width: 20rem;
+    height: 15rem;
+    background-color: white;
 }
 
 .announcements {
