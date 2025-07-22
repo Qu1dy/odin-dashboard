@@ -114,6 +114,7 @@ main {
 
 .projects {
     grid-area: projects;
+    display: grid;
 }
 
 .announcements {
