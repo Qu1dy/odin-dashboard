@@ -137,6 +137,29 @@ main {
     background-color: white;
     border-left: 0.5rem solid orange;
     border-radius: 0.5rem;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 5rem 1rem 8rem;
+}
+
+.card > * {
+    margin: 0 1rem;
+}
+
+.card h3 {
+    font-weight: 900;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.card .buttons {
+    justify-self: end;
+    align-self: end;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 0.75rem;
 }
 
 .announcements {
