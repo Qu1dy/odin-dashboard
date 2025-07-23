@@ -100,8 +100,14 @@ search, .user-info {
     padding: 0 3rem 0;
 }
 
+.hero {
+    padding-bottom: 1rem;
+    box-shadow: 0 0.5rem 10px hsl(250, 5%, 80%);
+}
+
 main {
-    margin-top: 1rem;
+    position: relative;
+    z-index: -1;
     display: grid;
     grid-area: main;
     background-color: hsl(250, 5%, 90%);
@@ -126,7 +132,7 @@ main {
 }
 
 .card {
-    width: 18rem;
+    width: 20rem;
     height: 15rem;
     background-color: white;
     border-left: 0.5rem solid orange;
