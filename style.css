@@ -101,13 +101,13 @@ search, .user-info {
 }
 
 .hero {
+    position: relative;
+    z-index: 1;
     padding-bottom: 1rem;
     box-shadow: 0 0.5rem 10px hsl(250, 5%, 80%);
 }
 
 main {
-    position: relative;
-    z-index: -1;
     display: grid;
     grid-area: main;
     background-color: hsl(250, 5%, 90%);
@@ -123,6 +123,7 @@ main {
     display: grid;
     margin-left: 2rem;
     grid-template-rows: 1fr 10fr;
+    margin-bottom: 2rem;
 }
 
 .cards {
