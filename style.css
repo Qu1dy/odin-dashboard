@@ -121,14 +121,16 @@ main {
 
 .cards {
     display: grid;
-    gap: 2rem 2rem;
+    gap: 2rem 4rem;
     grid-template-columns: repeat(auto-fit, 300px);
 }
 
 .card {
-    width: 20rem;
+    width: 18rem;
     height: 15rem;
     background-color: white;
+    border-left: 0.5rem solid orange;
+    border-radius: 0.5rem;
 }
 
 .announcements {
