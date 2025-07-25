@@ -149,7 +149,7 @@ main {
     align-items: center;
 }
 
-.card > * {
+.card > *, .ann > * {
     margin: 0 1rem;
 }
 
@@ -236,4 +236,21 @@ button:hover {
 
 .ann-card {
     height: 50vh;
+    grid-template-rows: repeat(3, 7rem);
+}
+
+.ann > h1 {
+    font-size: 0.95rem;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+.ann > p {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+hr {
+    width: 14rem;
+    border: 1px solid hsl(250, 5%,80%);
 }
