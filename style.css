@@ -111,7 +111,7 @@ main {
     display: grid;
     grid-area: main;
     background-color: hsl(250, 5%, 90%);
-    grid-template: 1fr 1fr / 3fr 1fr;
+    grid-template: 1fr 1fr / 6fr 1fr;
     grid-template-areas: 
         'projects announcements'
         'projects trending'; 
@@ -122,18 +122,17 @@ main {
     grid-area: projects;
     display: grid;
     margin-left: 2rem;
-    grid-template-rows: 1fr 10fr;
     margin-bottom: 2rem;
 }
 
 .cards {
     display: grid;
-    gap: 2rem 4rem;
+    gap: 2rem 5rem;
     grid-template-columns: repeat(auto-fit, 300px);
 }
 
 .card {
-    width: 20rem;
+    width: 22rem;
     height: 15rem;
     background-color: white;
     border-left: 0.5rem solid orange;
