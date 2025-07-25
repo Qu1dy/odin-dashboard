@@ -183,6 +183,10 @@ header {
     border-radius: 4rem;
 }
 
+section > h1 {
+    font-size: 1.3rem;
+}
+
 .left .pfp {
     width: 4rem;
     height: 4rem;
