@@ -141,6 +141,7 @@ main {
     display: grid;
     align-items: center;
     grid-template-rows: 5rem 1rem 8rem;
+    box-shadow: 5px 5px 10px hsl(250, 5%, 80%);
 }
 
 .card > * {
