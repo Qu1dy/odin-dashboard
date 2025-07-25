@@ -121,11 +121,11 @@ main {
 
 .projects, .announcements {
     display: grid;
+    grid-template-rows: 3rem;
 }
 
 .projects {
     grid-area: projects;
-    grid-template-rows: 3rem;
 }
 
 .cards {
