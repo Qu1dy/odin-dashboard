@@ -108,21 +108,23 @@ search, .user-info {
 }
 
 main {
+    padding: 1.5rem 2rem;
     display: grid;
     grid-area: main;
     background-color: hsl(250, 5%, 90%);
-    grid-template: 1fr 1fr / 6fr 1fr;
+    grid-template: 1fr 1fr / 5fr 1fr;
     grid-template-areas: 
         'projects announcements'
         'projects trending'; 
-    gap: 2rem;
+    gap: 1rem;
+}
+
+.projects, .announcements {
+    display: grid;
 }
 
 .projects {
     grid-area: projects;
-    display: grid;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
 }
 
 .cards {
