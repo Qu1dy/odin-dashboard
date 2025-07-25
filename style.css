@@ -139,11 +139,14 @@ main {
     height: 15rem;
     background-color: white;
     border-left: 0.5rem solid orange;
+    grid-template-rows: 5rem 1rem 8rem;
+}
+
+.card, .announcements-card {
     border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px hsl(250, 5%, 80%);
     display: grid;
     align-items: center;
-    grid-template-rows: 5rem 1rem 8rem;
-    box-shadow: 5px 5px 10px hsl(250, 5%, 80%);
 }
 
 .card > * {
