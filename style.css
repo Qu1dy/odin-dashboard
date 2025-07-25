@@ -125,12 +125,13 @@ main {
 
 .projects {
     grid-area: projects;
+    grid-template-rows: 3rem;
 }
 
 .cards {
     display: grid;
     gap: 2rem 5rem;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template: repeat(3, 15rem)/repeat(auto-fit, 300px);
 }
 
 .card {
@@ -227,4 +228,10 @@ img:not(.pfp):hover, img:not(.pfp):focus {
 button:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+
+.announcements-card {
+    background-color: white;
+    height: 50vh;
 }
