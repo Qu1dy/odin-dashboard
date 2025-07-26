@@ -1,5 +1,5 @@
 * {
-    font-family: 'Sansation';
+    font-family: 'Sansation'x, sans-serif;
 }
 
 body {
@@ -127,7 +127,7 @@ main {
         'projects announcements'
         'projects trending'; 
     gap: 0.5rem 1rem;
-    height: 55rem;
+    height: 52rem;
 }
 
 .projects, .announcements, .trending {
@@ -272,7 +272,6 @@ hr {
 }
 
 .trendings-card {
-    height: 37vh;
     justify-content: space-between;
 }
 
