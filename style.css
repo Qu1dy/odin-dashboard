@@ -236,13 +236,17 @@ button:hover {
 
 .ann-card {
     height: 50vh;
-    grid-template-rows: repeat(3, 7rem);
+}
+
+.ann {
+    display: grid;
+    grid-template-rows: 1.1rem 4rem;
+    row-gap: 0.2rem;
 }
 
 .ann > h1 {
     font-size: 0.95rem;
     font-weight: 900;
-    margin-top: 2rem;
 }
 
 .ann > p {
