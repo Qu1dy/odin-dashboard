@@ -50,6 +50,12 @@ search, .top-header, .left, .hero, .right {
     padding: 0.6rem 1.9rem;
 }
 
+.right button:hover {
+    background-color: white;
+    color: skyblue;
+    border: 2px solid skyblue;
+}
+
 .user-info {
     gap: 2rem;
 }
