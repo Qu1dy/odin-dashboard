@@ -1,3 +1,7 @@
+* {
+    font-family: 'Sansation';
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -139,6 +143,7 @@ main {
     display: grid;
     gap: 2rem 1.5rem;
     grid-template: repeat(3, 15rem)/repeat(auto-fit, 20rem);
+    
 }
 
 .card {
