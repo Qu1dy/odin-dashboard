@@ -181,7 +181,7 @@ main {
 header {
     display: grid;
     grid-area: header;
-    grid-template-rows: 5rem 10rem;
+    grid-template-rows: 5rem 6rem;
 }
 
 .pfp {
