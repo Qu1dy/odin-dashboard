@@ -116,7 +116,7 @@ main {
     grid-template-areas: 
         'projects announcements'
         'projects trending'; 
-    gap: 1rem;
+    gap: 2rem 1rem;
 }
 
 .projects, .announcements {
@@ -175,12 +175,13 @@ main {
 
 .trending {
     grid-area: trending;
+    display: grid;
 }
 
 header {
     display: grid;
     grid-area: header;
-    grid-template: 5fr 10fr;
+    grid-template-rows: 5rem 10rem;
 }
 
 .pfp {
